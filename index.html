@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="Assests/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>Grocery-Store</title>
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="header">
+        <div class="bottom-bar">
+            <a href="#" class="logo"><img src="Assests/Images/logo.png" alt=""></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+            <ul class="menu-sec" id="nav">
+                <li><a href="#" class="menu-list">Home</a></li>
+                <li><a href="#about" class="menu-list">About us</a></li>
+                <li><a href="#product" class="menu-list">Products</a></li>
+                <li><a href="#deal" class="menu-list">Deals</a></li>
+                <li><a href="#delivery" class="menu-list">Delivery</a></li>
+                <li><a href="#blog" class="menu-list">Blog</a></li>
+                <li><a href="#" class="menu-list">FAQ's</a></li>
+            </ul>
+
+
+            <ul class="top-social">
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+
+
+        </div>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <!-- Banner start -->
+    <section class="banner-sec" id="#">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6 col-6">
+                    <div class="banner-text">
+                        <span>30% off on your First order</span>
+                        <h3>Fresh & Organic Groceries Delivered to Your Door!</h3>
+                        <p>Enjoy 30% OFF on Your First Order • Farm-Fresh Produce • 100% Organic</p>
+                        <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-sec py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about text-center">
+                    <h6>About Our Store</h6>
+                </div>
+                <div class=" row align-items-center">
+                    <div class="about-image col-lg-6 col-md-6 col-sm-6 mb-4 mb-lg-0">
+                        <div class="about-img position-relative">
+                            <img src="Assests/Images/About.jpg" alt="Our Store" class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="about-image col-lg-6 col-md-6 col-sm-6 col-12">
+                        <div class="about-text">
+
+                            <h2>We Provide Fresh & Organic Groceries</h2>
+                            <p class="mb-4 ">At FreshHarvest, we're passionate about bringing you the freshest,
+                                highest
+                                quality groceries straight from local farms to your table. Founded in 2012, our
+                                family-owned
+                                business has grown from a small farmers' market stand to serving thousands of
+                                happy
+                                customers across the region.</p>
+
+                            <div class="about-features">
+                                <div class="feature-item">
+                                    <i class="fa fa-leaf"></i>
+                                    <div>
+                                        <h5>100% Organic</h5>
+                                        <p>All our products are certified organic and chemical-free.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa fa-truck"></i>
+                                    <div>
+                                        <h5>Fast Delivery</h5>
+                                        <p>Same-day delivery available for all local orders.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="nav-btn mt-4"><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Product-sec start -->
+    <section class="py-5 deal-sec" id="product">
+        <div class="container">
+            <div class="header-text text-center">
+                <h6>Products</h6>
+                <h2>Best Deal of The Week !</h2>
+            </div>
+            <div class="row mt-5" id="product-list">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured-sec start -->
+    <section class="py-5 featured-sec" id="delivery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="featured-flex">
+                        <img src="Assests/Images/our-features1.png" alt="">
+                        <div class="">
+                            <p>100% Secure Payment</p>
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="featured-flex">
+                        <img src="Assests/Images/our-features2.png" alt="">
+                        <div class="">
+                            <p>100% Secure Payment</p>
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="featured-flex">
+                        <img src="Assests/Images/our-features3.png" alt="">
+                        <div class="">
+                            <p>100% Secure Payment</p>
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="featured-flex">
+                        <img src="Assests/Images/our-features4.png" alt="">
+                        <div class="">
+                            <p>100% Secure Payment</p>
+                            <span>Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section-2 start -->
+    <div class="bg-area">
+        <div class="container-fluid timer">
+            <img src="Assests/Images/timer.jpg" alt="">
+            <div class="bg-text">
+                <div class="this-text">This Week</div>
+                <h1>Weekly Best Deal</h1>
+                <div class="countdown">
+                    <div><strong>255</strong>DAYS<br></div>
+                    <div><strong>21</strong>HRS<br></div>
+                    <div><strong>13</strong>MIN<br></div>
+                    <div><strong>45</strong>SEC<br></div>
+                </div>
+                <div class="nav-btn mt-4"><a href="">Shop Now</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deal-sec with Slider -->
+    <section class="py-5 top-solid-sec" id="deal">
+        <div class="container">
+            <div class="header-text text-center">
+                <h6>Best Deal</h6>
+                <h2>Featured Products</h2>
+            </div>
+            <div class="product-slider mt-5" id="product-slider">
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonial-sec start -->
+    <div class="testimonial-sec py-5">
+        <div class="container">
+            <div class="header-text text-center mb-5">
+                <h6>Testimonial</h6>
+                <h2>Our Happy Customers</h2>
+                <p>We take pride in serving our customers with the finest quality products and exceptional service.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p>Shopping at Eco Market has completely changed how I stock my kitchen. The quality of fresh
+                        produce is exceptional!
+                    </p>
+                    <div class="profile">
+                        <img src="Assests/Images/test-1.jpg" alt="">
+                        <div class="profile-text">
+                            <h6>Ayesha Khan</h6>
+                            <div class="position">Supply Manager.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p>The seamless shopping experience and prompt delivery from Eco Market have made my grocery
+                        shopping effortless!</p>
+                    <div class="profile">
+                        <img src="Assests/Images/test-2.jpg" alt="">
+                        <div class="profile-text">
+                            <h6>Usman Tariq</h6>
+                            <div class="position">Operations Manager</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque tempore quidem eligendineque.
+                        Tenetur,!</p>
+                    <div class="profile">
+                        <img src="Assests/Images/test-3.jpg" alt="">
+                        <div class="profile-text">
+                            <h6>Bilal Shaikh</h6>
+                            <div class="position">Head Of Department</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p>As a nutritionist, I recommend Eco Market for its fresh, chemical-free groceries that support a
+                        healthy lifestyle.</p>
+                    <div class="profile">
+                        <img src="Assests/Images/test-1.jpg" alt="">
+                        <div class="profile-text">
+                            <h6>Hiba Farooq</h6>
+                            <div class="position">Nutritionist</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog-sec start -->
+    <div class="blog-sec py-5" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img src="Assests/Images/blog-1.jpg" alt="">
+                            <div class="blog-text">
+                                <h4>Freshen Up Your Pantry</h4>
+                                <p>Keep your kitchen stocked with the freshest fruits, vegetables, and organic
+                                    essentials for lifestyle.</p>
+                                <a href="" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img src="Assests/Images/blog-2.jpg" alt="">
+                            <div class="blog-text">
+                                <h4>Revamp Your Grocery List</h4>
+                                <p>Make smarter grocery choices with wholesome products designed to nourish you and your
+                                    family.</p>
+                                <a href="" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="blog-box">
+                        <div class="blog-img">
+                            <img src="Assests/Images/blog-3.jpg" alt="">
+                            <div class="blog-text">
+                                <h4>Elevate Your Kitchen Essentials</h4>
+                                <p>Discovers premium qualities staples that brings flavors and nutritions to every meal
+                                    you prepare.</p>
+                                <a href="" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-sec start -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3  col-sm-12">
+                    <div class="footer-box">
+                        <img src="Assests/Images/logo.png" alt="" class="f-logo">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, architecto.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3  col-sm-6">
+                    <h5>Useful Links</h5>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i>Home</a></li>
+                            <li><a href="#about"><i class="fa-solid fa-angle-right"></i>About Us</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i>Services</a></li>
+                            <li><a href="#delivery"><i class="fa-solid fa-angle-right"></i>Delivery</a></li>
+                            <li><a href="#"><i class="fa-solid fa-angle-right"></i>Testimonial</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3  col-sm-6">
+                    <h5>Customers Services</h5>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href=""><i class="fa-solid fa-angle-right"></i>Policy</a></li>
+                            <li><a href=""><i class="fa-solid fa-angle-right"></i>Terms</a></li>
+                            <li><a href=""><i class="fa-solid fa-angle-right"></i>Returns</a></li>
+                            <li><a href=""><i class="fa-solid fa-angle-right"></i>Faq's</a></li>
+                            <li><a href=""><i class="fa-solid fa-angle-right"></i>Shipping</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3  col-sm-12">
+                    <h5>Company Details</h5>
+                    <div class="footer-contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="#">
+                            <span>Phone</span>
+                            <a href="">+923132096250</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="#">
+                            <span>Email</span>
+                            <a href="">hammmmad520@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-contact">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="#">
+                            <span>Address</span>
+                            <a href="">Karachi,Pakistan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="m-0">copyrights @2025 | Hammad Awan</p>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Jquery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap JS link -->
+    <script src="Assests/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Slick Slider Js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Custom Js -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
